@@ -26,7 +26,7 @@ if (!is_null($events['events'])) {
 			$replyToken = $event['replyToken'];
 
 			// Build message to reply back
-
+			//Name of Device from arduino.ino
 			$Topic = "NodeMCU1" ;
 			getMqttfromlineMsg($Topic,$text);
 			   
